@@ -18,7 +18,7 @@ unit_test-job:
     - saas-linux-small-amd64
   before_script:
     - echo "Add cmds to install NodeJS"
-  scripts:
+  script:
     - echo npm install
     - echo npm test
   after_script:
