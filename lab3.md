@@ -58,7 +58,7 @@ docker_push:
    #  needs:
    #     - docker_testing
     variables:
-       PASSWORD: $DOCKER_PASSWORD
+       PASSWORD: password@123
     script:
       - echo "docker login --username=$USERNAME --password=$PASSWORD"
       - echo "docker push $REGISTRY/$IMAGE:$VERSION"
