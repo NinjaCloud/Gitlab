@@ -58,7 +58,7 @@ deploy_to_dev:
     - echo "Deploying to development environment..."
   environment:
     name: development
-    url: http://localhost:8080
+    url: http://oepntext.newfeature.com:8080
   only:
     - main
 
@@ -69,7 +69,7 @@ deploy_to_staging:
     - echo "Deploying to staging environment..."
   environment:
     name: staging
-    url: http://localhost:8081
+    url: http://opentext.testrelease.com:8081
   only:
     - main
 
@@ -80,7 +80,7 @@ deploy_to_production:
     - echo "Deploying to production environment..."
   environment:
     name: production
-    url: http://localhost:8082
+    url: http://opentext.prod.com:8082
   only:
     - main
 ```
