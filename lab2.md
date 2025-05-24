@@ -40,9 +40,7 @@ artwork_job:
 
 ```
 #!/bin/sh
-echo "We are Generating ASCII Artwork using COWSAY Program"
 cowsay -f dragon "Run for Cover, I am a DRAGON" > dragon.txt
-grep -i "dragon" dragon.txt
 cat dragon.txt
 ```
 
@@ -57,7 +55,7 @@ artwork_job:
     - gem install cowsay
     - chmod +x script.sh
   script:
-    - ./script.sh
+    - . ./script.sh
   after_script:
     - echo "This is the End of Pipeline"
 ```
