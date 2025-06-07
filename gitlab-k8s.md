@@ -18,7 +18,7 @@ get-cluster-info:
 
 ### Config File 
 
-Location: .gitlab/agents/<agent-name>/config.yaml
+Location: .gitlab/agents/[agent-name]/config.yaml
 
 ```
 ci_access:
