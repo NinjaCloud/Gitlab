@@ -17,6 +17,9 @@ kubectl create secret docker-registry gitlab-regcred \
   --docker-password=gldt-E1y5yYUDdmns6t9zNvz6 
 ```
 
+sudo gitlab-runner register
+
+
 ```
 apiVersion: v1
 kind: Pod
